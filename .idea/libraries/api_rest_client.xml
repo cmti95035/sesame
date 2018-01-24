@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="api-rest-client">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/api-rest-client.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

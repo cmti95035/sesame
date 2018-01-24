@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="@color/backgroundblack">
+
+    <!-- comment out the sesame icon -->
+    <!--ImageView
+        android:id="@+id/iconImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/icon"/-->
+
+    <ImageButton
+            android:id="@+id/btnIntendS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/doorbell"
+            android:background="@null"/>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_below="@id/btnIntendS"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:visibility="gone"/>
+
+
+
+</RelativeLayout>

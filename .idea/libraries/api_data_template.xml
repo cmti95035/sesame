@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="api-data-template">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/api-data-template.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

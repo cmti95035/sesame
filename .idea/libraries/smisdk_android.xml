@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="smisdk-android">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/smisdk-android.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

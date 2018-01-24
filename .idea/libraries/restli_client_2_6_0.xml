@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="restli-client-2.6.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.linkedin.pegasus/restli-client/2.6.0/13747b78d175837066c61a89cd8a3d3f7557a852/restli-client-2.6.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.linkedin.pegasus/restli-client/2.6.0/6379d4cc1265423bd007d6210c4a73b458acb37e/restli-client-2.6.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

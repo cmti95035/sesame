@@ -1,0 +1,172 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#0099cc"
+                tools:context="com.hackaton.tutorial">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    <EditText
+        android:id="@+id/userId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/access_token"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="29dp"
+        android:ems="10"
+        android:hint="User Id"
+        android:inputType="textEmailAddress"
+        android:text="alice"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/domain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/userId"
+        android:layout_below="@+id/userId"
+        android:text="\@domain"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/get_token"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/audio_button"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="42dp"
+        android:clickable="true"
+        android:onClick="getAccessToken"
+        android:text="Create Token"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/access_token"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/get_config_button"
+        android:layout_below="@+id/get_config_button"
+        android:text="Access Token : "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/associate_user_button"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/userId"
+        android:layout_toEndOf="@+id/userId"
+        android:onClick="associateUser"
+        android:text="Associate"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/login_button"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/domain"
+        android:layout_below="@+id/domain"
+        android:layout_marginTop="29dp"
+        android:onClick="login"
+        android:text="Login"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/sessionId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/login_button"
+        android:text="session Id"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:id="@+id/phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/login_button"
+        android:layout_below="@+id/login_button"
+        android:layout_marginTop="44dp"
+        android:layout_toStartOf="@+id/video_button"
+        android:hint="Enter callee"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/video_button"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/phone_number"
+        android:layout_marginEnd="24dp"
+        android:layout_toStartOf="@+id/audio_button"
+        android:onClick="dial"
+        android:text="Video"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/audio_button"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/video_button"
+        android:layout_alignParentEnd="true"
+        android:onClick="dial"
+        android:text="Audio"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/logout_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/phone_number"
+        android:layout_below="@+id/phone_number"
+        android:layout_marginTop="53dp"
+        android:onClick="logout"
+        android:text="Logout"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/get_config_button"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/phone_number"
+        android:layout_alignTop="@+id/get_token"
+        android:onClick="getConfig"
+        android:text="GET CONFIG"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/answer_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/logout_button"
+        android:layout_alignStart="@+id/get_token"
+        android:background="#04bf0d"
+        android:onClick="answerCall"
+        android:text="Answer"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/reject_button"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/answer_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/answer_button"
+        android:background="#f25555"
+        android:onClick="rejectCall"
+        android:text="Reject"
+        android:visibility="invisible"/>
+
+
+</RelativeLayout>

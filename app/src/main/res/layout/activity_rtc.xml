@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.opengl.GLSurfaceView
+        android:id="@+id/glview_call"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <FrameLayout
+        android:id="@+id/sample_content_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/dialling"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|top"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Dialing.."
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/calleeId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginTop="96dp"
+            android:text="Caller"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"/>
+
+    </FrameLayout>
+
+</RelativeLayout>
+

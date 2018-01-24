@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="r2-netty-2.6.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.linkedin.pegasus/r2-netty/2.6.0/13a8b274224fb2157d13260949fd3a14f7e8c66/r2-netty-2.6.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.linkedin.pegasus/r2-netty/2.6.0/52b4d48039c269f3539664a1870ca8b29277e58d/r2-netty-2.6.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

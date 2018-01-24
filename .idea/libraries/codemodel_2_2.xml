@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="codemodel-2.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.codemodel/codemodel/2.2/220bdce6bf4571c42b9a5cd272503df168cbdb60/codemodel-2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.codemodel/codemodel/2.2/340c64cd3c5bfe816fc90d8238a3a6863c248911/codemodel-2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

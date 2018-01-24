@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="r2-core-2.6.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.linkedin.pegasus/r2-core/2.6.0/a74bb9de53f45726d32b215d314a2e2198087575/r2-core-2.6.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.linkedin.pegasus/r2-core/2.6.0/b525c2a5be69dd732d2835bb56846ce98bb98ea8/r2-core-2.6.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
